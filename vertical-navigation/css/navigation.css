@@ -1,0 +1,41 @@
+/*vertical navigation*/
+body {
+  border-box;
+  background-color: #f2f2f2;
+  margin: 1%;
+  padding: 1%;
+
+}
+nav{
+  box-sizing: border-box;
+  border: 1px solid #06425c;
+  color:black;
+  background-color: pink;
+  display:inline-block;
+  width:20%;
+  min-width: 200px;
+  margin-right: 15px;
+  height: 100vh;
+  overflow: auto;
+
+}
+
+nav a{
+  display: block;
+  line-height: 160px;
+  height:auto;
+  color: #ffffff;
+  background-color: orange;
+  text-decoration: none;
+  background: url('../images-nav/flywheel') no-repeat;
+  position: contain;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+section {
+  display: inline-block;
+  width: 70%;
+  height: 100vh;
+  overflow:auto;
+}
