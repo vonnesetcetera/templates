@@ -1,8 +1,12 @@
-/* assignment week-2 filename = hw1.css */
+/* ||assignment week-2 filename = hw1.css  best */
+
+
+/*  || BEST SEEN ON LAPTOP */
+
 html {
-  -webkit-box-sizing: borderbox;
-  -moz-box-sizing: borderbox;
-  -box-sizing: borderbox
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
 }
 
 body {
@@ -37,15 +41,16 @@ h1 {
 /*  ||  NAVIGATION */
 
 nav {
-text-align: center;
+  text-align: center;
 }
 
-nav a {
-  background-color: #e9d43d;
+  nav a {
+  background-color: #5bac45;
   color: #ffffff;
-  padding-left: 6px;
-	padding-right: 6px;
-	padding-top: 4px;
+  padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+  padding-bottom: 15px;
 	margin-right: 4%;
 	margin-bottom: auto;
   text-align: center;
@@ -55,18 +60,18 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #4CAF50; /* green */
+  background-color: #7b2936; /* dark purple */
 }
 
 .active {
-  background-color: #090987; /*blue */
+  background-color: #d50000; /*red */
 
 }
 
 aside {
   box-sizing: border-box;
-  border: 10px solid #ffc0cb;
-  background-color: #ffc0cb;
+  border: 10px solid #5bac45;
+  background-color: #5bac45;
   display:inline-block;
   width:25%;
   min-width: 210px;
