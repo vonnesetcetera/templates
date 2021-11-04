@@ -135,7 +135,7 @@ th:first-child {
   text-align: left;
 }
 th:nth-child(even) {
-  font-size: 90%
+  font-size: 90%;
   text-align: center;
 }
 th:nth-child(odd){
