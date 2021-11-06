@@ -1,0 +1,177 @@
+/* ||assignment week-4 filename = hw1.css */
+
+/*  || BEST SEEN ON laptop or larger screen */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, Verdana, Helvetica, sans-serif;
+  /*font-size: 110%*/
+	display: table;
+  background: #e5efea;
+	margin: 4px;
+  padding: 4px;
+}
+
+header {
+	background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 150px;
+  background-color: #e3df5c;
+	border-radius: 2px;
+	padding-top:2em;
+	padding-bottom: 1em;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+	text-align: center;
+  font-size: 200%;
+	padding-top: 10px;
+	color: #FFFFFF;
+}
+
+/*  ||  NAVIGATION */
+
+nav {
+  text-align: center;
+}
+  nav a {
+  background-color: #7d9e38;
+  opacity: .8;
+  color: #ffffff;
+  padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+  padding-bottom: 11px;
+	margin-right: 4%;
+	margin-bottom: 0px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #7b2936; /* dark purple */
+}
+
+.active {
+  background-color: #d50000; /*red to show active page*/
+  opacity: 1;
+}
+
+aside { /* || the green box for the images */
+  /*box-sizing: border-box;*/
+  background-color: #7d9e38;
+  /*display:inline-block;*/
+  width: 20%;
+  float: left;
+  min-width: 150px;
+  margin: 0;
+  height: 100vh;
+  overflow: auto;
+}
+
+img {
+	width: 75%;
+	height: auto;
+	border: 2px solid #000;
+	object-fit: contain;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 30px;
+  margin-left:30px;
+
+}
+
+section{
+  display: inline-block;
+  width: 75%;
+  height: 100vh;
+  margin: 0;
+  overflow:auto;
+}
+
+h2, p {
+  padding-left: 10px;
+}
+table {
+  box-sizing: border-box;
+  table-layout: auto;
+  width: auto;
+  margin: auto;
+  font-family: Verdana,sans-serif;
+  line-height: 2.5;
+}
+td {
+ border: 1px solid #ffffff;
+ border-collapse: collapse;
+ border-radius: 2px;
+ line-height: 2.5;
+ margin: 0 auto;
+ padding-left: 15px;
+ padding-right: 40px;
+}
+
+th {
+  background-color: #7d9e38;
+  height: 30px;
+  border-top-style: none;
+  border-bottom: 3px solid #ffffff;
+  border-radius: 8px 8px 0 0; /* || border-radius for top two corners */
+  opacity: 1;
+}
+
+th:first-child {
+  font-size: 90%;
+  text-align: left;
+}
+th:nth-child(even) {
+  font-size: 90%;
+  text-align: center;
+}
+th:nth-child(odd){
+  font-size: 90%;
+  text-align: center;
+
+}
+
+
+/*  || table row - opacity set, when hovered on back to 1 with extra color */
+tr>td{
+  background-color: #d3c700;
+  color: #000000;
+  opacity: .7;
+}
+tr:hover {
+  background-color: #ffa500;
+  opacity: 1;
+}
+
+/* || column one is left-aligned  the other two are centered*/
+td:first-child {
+  text-align: left;
+  font-size: 90%;
+}
+td:nth-child(even) {
+  text-align: center;
+  font-size: 90%;
+}
+td:last-child {
+  text-align: center;
+  font-size: 90%;
+}
+
+
+ul {
+list-style-type: none;
+margin-left: -25px;
+}
