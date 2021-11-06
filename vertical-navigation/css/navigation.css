@@ -27,7 +27,7 @@ nav a{
   color: #ffffff;
   background-color: orange;
   text-decoration: none;
-  background: url('../images-nav/flywheel') no-repeat;
+  /*background: url('../images-nav/flywheel');*/
   position: contain;
   padding-left: 50px;
   padding-right: 50px;
